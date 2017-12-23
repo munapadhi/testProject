@@ -1,0 +1,82 @@
+INTERVIEW PLAING
+---------------
+PHP DEVELOPER
+-------------
+
+PHP 
+mysql
+ajax
+javascript
+jquery
+
+
+UI DEVELOPER
+-------------
+HTML5
+CSS3
+LESS
+SASS
+JAVASCRIPT
+JQUERY
+ANGULAR JS 
+BOOTSTRAP
+
+
+MEAN STACK DEVELER
+------------------
+NODE
+EXPRESS
+ANGUALR
+MONGODB
+
+
+laravel
+angularjs
+JWT
+PASSPORT
+
+
+gruntfile.js
+-----------------
+grunt.loadNpmTasks('grunt-contrib-htmlmin')
+
+grunt.initConfig({
+	htmlmin:{
+		dist:{
+			options: {
+
+			},
+			files:{
+				'dist/html/': 'src/index'
+			}
+		}
+	}
+});
+
+grund.registerTask('default',['htmlmin'])
+
+
+gulpfile.js
+-----------
+var gulp = require('gulp')
+var minifyHtml = require('gulp-minify-html')
+
+gulp.task('minify-html',function(){
+	gulp.scr('/asdf/.asdfd')
+	.pipe(minifyHtml())
+	.pipe(gulp.dest('sdfsd/sdfas'))
+})
+
+
+FRONTEND ANGUALRJS
+-------------------
+- REGISTER PAGE - validate with token
+- LOGIN PAGE - validate with token
+- DISPLAY REGISTER DATA - validate with token
+
+BACKEND LARAVEL PASSPORT
+------------------------
+- Migrations and seeds to create daatabase and userdata
+
+- API TO VALIDATE USER DATA
+
